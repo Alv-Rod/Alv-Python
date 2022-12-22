@@ -7,6 +7,6 @@ print(senhaCorreta)
 while senhaUsuario != senhaCorreta:
     senhaUsuario = int(input("Insira sua senha... "))
     if senhaUsuario != senhaCorreta:
-        print("senha incorreta, tente novamente... ")
+        print("Senha incorreta, tente novamente... ")
 print("senha correta.")
 print("fim")
